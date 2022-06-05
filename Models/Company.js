@@ -27,4 +27,4 @@ const CompanySchema = mongoose.Schema({
     }
 });
 
-module.exports = mongoose.model('Companies',StudentsSchema);
+module.exports = mongoose.model('Companies',CompanySchema);

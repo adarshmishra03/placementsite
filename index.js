@@ -15,10 +15,12 @@ mongoose.connect(process.env.URI,()=>{
 
 //Import routres
 app.use('/student',require('./routes/students'));
+app.use('/company',require('./routes/upcoming'));
+
+//routes
 app.get('/', (req,res) => {
     res.send('we r home');
 });
-
 
 
 const PORT = process.env.PORT || 4000;
