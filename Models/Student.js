@@ -5,7 +5,7 @@ const StudentsSchema = mongoose.Schema({
         type: String,
         required: true
     },
-    companyname:{
+    company:{
         type: String,
         required: true
     },
